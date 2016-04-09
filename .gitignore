@@ -1,3 +1,6 @@
+# Ignore my custom upload script
+quickupload.sh
+
 # Ignore docs files
 _gh_pages
 _site
