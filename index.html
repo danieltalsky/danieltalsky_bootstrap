@@ -22,29 +22,181 @@
         body { padding-top: 70px; }
         h1, h2, h3, h4, h5, h6 { font-family: 'Oleo Script', serif; }
         p, div { font-family: 'Raleway', sans-serif; }
+        
+        div#resume { margin-top: 3em; }
     </style>
   </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Resume <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Code</a></li>
-            <li><a href="#">Personal</a></li>
+            <li class="active"><a href="#portfolio">Portfolio <span class="sr-only">(current)</span></a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#code">Code</a></li>
+            <li><a href="#personal">Personal</a></li>
           </ul>
       </div>
     </nav>
     
     <div class="container">
         <div class="page-header">
-            <h1>Daniel Talsky: <small>Damn, that dude dope.</small></h1>
+            <h1>Daniel Talsky: <small>"That guy is hella epic." &mdash; Roger Ebert</small></h1>
         </div>
     </div>
     
+    <a name="portfolio"></a>
     <div class="container">
-        yo
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="/img/process.jpg" alt="Flower">
+                <div class="carousel-caption">
+                    <h3>Satellite Collective</h3>
+                    <p>(copy not final) I managed technical volunteers, architected, and built an interactive web application to store and display multimedia art works from 43 different countries and respond to traffic during peak media coverage. <a href="http://www.nytimes.com/2015/04/19/arts/design/telephone-an-international-arts-experiment-by-nathan-langston.html?_r=0" target="_blank">See the New York Times coverage of the project</a>. I managed SEO and brand presence for the brand, putting all our properties at top 5 natural google results.</p>                
+                </div>
+            </div>
+
+             <div class="item">
+                <img src="/img/process.jpg" alt="Flower">
+                <div class="carousel-caption">
+                    <h3>Sony Music // The Orchard</h3>
+                    <p>(copy not final) Did some stuff, did some stuff, did some stuff, did some stuff, oh I most definitely did some stuff.  The stuff I did resulted in copy, and now that copy is sitting here waiting to entice human beings who want to hear about my accomplishments.</p>
+                </div>
+            </div>           
+            
+            <div class="item">
+                <img src="/img/process.jpg" alt="Flower">
+                <div class="carousel-caption">
+                    <h3>The Jones Group</h3>
+                    <p>(copy not final) The Jones Group manages several eCommerce brands that generate 80 million a year using a single codebase and the popular eCommerce platform: DemandWare. The sites I worked on include: jny.com, ninewest.com, anneklein.com, us.kurtgeiger.com, rachelroy.com, and brianatwood.com. I was part of a small 5 person development team that handled all features and updates to all the sites.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="/img/process.jpg" alt="Flower">
+                <div class="carousel-caption">
+                    <h3>Serials Solutions</h3>
+                    <p>(copy not final) I wrote the first data API in SOAP and C#.NET to serve customers raw information from the popular Ulrich's brand.</p><p>I wrote Java and Ruby programs to manage and organize Terabytes worth of information about online serials.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="/img/process.jpg" alt="Flower">
+                <div class="carousel-caption">
+                    <h3>Teague</h3>
+                    <p>Teague does industrial hardware design for clients like HP and Boeing. They needed to be able to share large files up to 200MB in size and Email wasn't doing the job. I built a cutting-edge web-based file sharing application that let their customers and vendors share files with them frictionlessly.</p>
+                </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
     </div>
+    
+    <a name="resume"></a>
+    <div id="resume" class="container">
+        <h2>The r&#233;sum&#233;</h2>
+        
+        <p class="well">Summary Paragraph of Awesomeness.  This is where I lay it all out for the people of the earth.  Summary Paragraph of Awesomeness.  This is where I lay it all out for the people of the earth.  Summary Paragraph of Awesomeness.  This is where I lay it all out for the people of the earth.  Summary Paragraph of Awesomeness.  This is where I lay it all out for the people of the earth.  Summary Paragraph of Awesomeness.  This is where I lay it all out for the people of the earth.  Summary Paragraph of Awesomeness.  This is where I lay it all out for the people of the earth.  Summary Paragraph of Awesomeness.  This is where I lay it all out for the people of the earth.  Summary Paragraph of Awesomeness.  
+            </p>
+        
+        <h3>Skill Cornucopia</h3>
+        
+        <ul>
+            <li><strong>PHP</strong> Master and Proud Of It</li>
+            <li><strong>(X)HTML</strong> up to and including 5</li>
+            <li>Regularly use the front end build stuff like <strong>JavaScript</strong>, <strong>JLlint</strong>, <strong>npm</strong>, <strong>LESS</strong>, <strong>SASS</strong> 
+            <li>Familiar with use build tools like git, GitHub, Jenkins, Docker</li>
+            <li>Built API's in <strong>Python</strong> and <strong>Flask</strong></li>
+            <li>Worked on a little <strong>React</strong></li>
+            <li>like, everything but perl</li>
+        </ul>
+        
+        <h3>Whimsical Work History <small>of doom</small></h3>
+        
+<p>
+Then rapidly pulling back towards the Pequod, and seeing Ahab leaning over the quarter-deck rail awaiting his report, he moulded his two hands into a trumpet and shouted&mdash;"No, Sir! No!" Upon which Ahab retired, and Stubb returned to the Frenchman.
+</p>
+<p>
+He now perceived that the Guernsey-man, who had just got into the chains, and was using a cutting-spade, had slung his nose in a sort of bag.
+</p>
+<p>
+"What's the matter with your nose, there?" said Stubb. "Broke it?"
+</p>
+<h3>The Mighty Subheader</h3>
+<p>
+"I wish it was broken, or that I didn't have any nose at all!" answered the Guernsey-man, who did not seem to relish the job he was at very much. "But what are you holding YOURS for?"
+</p>
+<p>
+"Oh, nothing! It's a wax nose; I have to hold it on. Fine day, ain't it? Air rather gardenny, I should say; throw us a bunch of posies, will ye, Bouton-de-Rose?"
+</p>
+<p>
+"What in the devil's name do you want here?" roared the Guernseyman, flying into a sudden passion.
+</p>
+<p>
+"Oh! keep cool&mdash;cool? yes, that's the word! why don't you pack those whales in ice while you're working at 'em? But joking aside, though; do you know, Rose-bud, that it's all nonsense trying to get any oil out of such whales? As for that dried up one, there, he hasn't a gill in his whole carcase."
+</p>
+<h3>The Mighty Subheader</h3>
+<p>
+"I know that well enough; but, d'ye see, the Captain here won't believe it; this is his first voyage; he was a Cologne manufacturer before. But come aboard, and mayhap he'll believe you, if he won't me; and so I'll get out of this dirty scrape."
+</p>
+<p>
+"Anything to oblige ye, my sweet and pleasant fellow," rejoined Stubb, and with that he soon mounted to the deck. There a queer scene presented itself. The sailors, in tasselled caps of red worsted, were getting the heavy tackles in readiness for the whales. But they worked rather slow and talked very fast, and seemed in anything but a good humor. All their noses upwardly projected from their faces like so many jib-booms. Now and then pairs of them would drop their work, and run up to the mast-head to get some fresh air. Some thinking they would catch the plague, dipped oakum in coal-tar, and at intervals held it to their nostrils. Others having broken the stems of their pipes almost short off at the bowl, were vigorously puffing tobacco-smoke, so that it constantly filled their olfactories.
+</p>
+<p>
+Stubb was struck by a shower of outcries and anathemas proceeding from the Captain's round-house abaft; and looking in that direction saw a fiery face thrust from behind the door, which was held ajar from within. This was the tormented surgeon, who, after in vain remonstrating against the proceedings of the day, had betaken himself to the Captain's round-house (CABINET he called it) to avoid the pest; but still, could not help yelling out his entreaties and indignations at times.
+English</p>
+</p>
+<h3>The Mighty Subheader</h3>
+<p>
+"Oh, nothing! It's a wax nose; I have to hold it on. Fine day, ain't it? Air rather gardenny, I should say; throw us a bunch of posies, will ye, Bouton-de-Rose?"
+</p>
+<p>
+"What in the devil's name do you want here?" roared the Guernseyman, flying into a sudden passion.
+</p>
+<p>
+"Oh! keep cool&mdash;cool? yes, that's the word! why don't you pack those whales in ice while you're working at 'em? But joking aside, though; do you know, Rose-bud, that it's all nonsense trying to get any oil out of such whales? As for that dried up one, there, he hasn't a gill in his whole carcase."
+</p>
+<p>
+"I know that well enough; but, d'ye see, the Captain here won't believe it; this is his first voyage; he was a Cologne manufacturer before. But come aboard, and mayhap he'll believe you, if he won't me; and so I'll get out of this dirty scrape."
+</p>
+<p>
+"Anything to oblige ye, my sweet and pleasant fellow," rejoined Stubb, and with that he soon mounted to the deck. There a queer scene presented itself. The sailors, in tasselled caps of red worsted, were getting the heavy tackles in readiness for the whales. But they worked rather slow and talked very fast, and seemed in anything but a good humor. All their noses upwardly projected from their faces like so many jib-booms. Now and then pairs of them would drop their work, and run up to the mast-head to get some fresh air. Some thinking they would catch the plague, dipped oakum in coal-tar, and at intervals held it to their nostrils. Others having broken the stems of their pipes almost short off at the bowl, were vigorously puffing tobacco-smoke, so that it constantly filled their olfactories.
+</p>
+<p>
+Stubb was struck by a shower of outcries and anathemas proceeding from the Captain's round-house abaft; and looking in that direction saw a fiery face thrust from behind the door, which was held ajar from within. This was the tormented surgeon, who, after in vain remonstrating against the proceedings of the day, had betaken himself to the Captain's round-house (CABINET he called it) to avoid the pest; but still, could not help yelling out his entreaties and indignations at times.
+English</p>
+    </div>
+    
+    
+    <div id="footer" class="">
+        <div class="container">
+            <p class="text-muted">This is a footer with content about <a href="http://www.danieltalsky.com" class="">Daniel Talsky</a>
+            </p>
+        </div>
+    </div>
+    <ul class="nav pull-right scroll-top" style="display: none !important;">
+        <li><a href="#" title="Scroll to top" style="display: none !important;" class=""><i class="glyphicon glyphicon-chevron-up"></i></a>
+        </li>
+    </ul>    
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
