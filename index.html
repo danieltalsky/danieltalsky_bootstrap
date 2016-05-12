@@ -16,7 +16,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,900|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Fira+Sans' rel='stylesheet' type='text/css'>
     
     <!-- All the Favicon and Icon stuff -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
@@ -42,10 +42,11 @@
     
     
     <style type="text/css">
-        body { padding-top: 70px; line-height: 1.8;}
-        h1, h2, h3, h4, h5, h6 { font-family: 'Playfair Display', serif;  font-weight: 900;}
-        h1 { color: #A6998F; }
-        p, div { font-family: 'Open Sans', sans-serif; }
+        body { padding-top: 70px; font-family: 'Fira Sans', sans-serif; line-height: 1.8; color: #151b26;}
+        h1, h2, h3, h4, h5, h6 { }
+        p, div {  }
+        
+        section.alternateColor { background: #151b26; color: #a6998f;}
         
         div#resume { margin-top: 3em; }
     </style>
@@ -69,113 +70,56 @@
     </div>
     
     <a name="portfolio"></a>
-    <div class="container">
+    <section id="portfolio" class="container">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-          </ol>
 
           <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="/img/process.jpg" alt="Flower">
-                <div class="carousel-caption">
+          <div>
+            <div>
+                <div>
                     <h3>Satellite Collective</h3>
                     <p>(copy not final) I managed technical volunteers, architected, and built an interactive web application to store and display multimedia art works from 43 different countries and respond to traffic during peak media coverage. <a href="http://www.nytimes.com/2015/04/19/arts/design/telephone-an-international-arts-experiment-by-nathan-langston.html?_r=0" target="_blank">See the New York Times coverage of the project</a>. I managed SEO and brand presence for the brand, putting all our properties at top 5 natural google results.</p>                
                 </div>
             </div>
 
-             <div class="item">
-                <img src="/img/process.jpg" alt="Flower">
-                <div class="carousel-caption">
+             <div>
+                <div>
                     <h3>Sony Music // The Orchard</h3>
                     <p>(copy not final) Did some stuff, did some stuff, did some stuff, did some stuff, oh I most definitely did some stuff.  The stuff I did resulted in copy, and now that copy is sitting here waiting to entice human beings who want to hear about my accomplishments.</p>
                 </div>
             </div>           
             
-            <div class="item">
-                <img src="/img/process.jpg" alt="Flower">
-                <div class="carousel-caption">
+            <div>
+                <div>
                     <h3>The Jones Group</h3>
                     <p>(copy not final) The Jones Group manages several eCommerce brands that generate 80 million a year using a single codebase and the popular eCommerce platform: DemandWare. The sites I worked on include: jny.com, ninewest.com, anneklein.com, us.kurtgeiger.com, rachelroy.com, and brianatwood.com. I was part of a small 5 person development team that handled all features and updates to all the sites.</p>
                 </div>
             </div>
 
-            <div class="item">
-                <img src="/img/process.jpg" alt="Flower">
-                <div class="carousel-caption">
+            <div>
+                <div>
                     <h3>ProQuest</h3>
                     <p>(copy not final) I wrote the first data API in SOAP and C#.NET to serve customers raw information from the popular Ulrich's brand.</p><p>I wrote Java and Ruby programs to manage and organize Terabytes worth of information about online serials.</p>
                 </div>
             </div>
 
-            <div class="item">
-                <img src="/img/process.jpg" alt="Flower">
-                <div class="carousel-caption">
+            <div>
+                <div>
                     <h3>Teague</h3>
                     <p>Teague does industrial hardware design for clients like HP and Boeing. They needed to be able to share large files up to 200MB in size and Email wasn't doing the job. I built a cutting-edge web-based file sharing application that let their customers and vendors share files with them frictionlessly.</p>
                 </div>
             </div>
           </div>
 
-          <!-- Left and right controls -->
-          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-    </div>
+    </section>
     
     <a name="resume"></a>
-    <div id="resume" class="container">
-    
-        <!--  -->
+    <section id="resume" class="container">
+
         <h2>The R&#233;sum&#233;</h2>
-
-        <!-- Row -->
-        <div class="row">
-
-        <!-- COLUMN -->
-        <div class="col-md-7">
         
         <p id="resumeSummary" class="well">I create beautiful software from planning to release using use testing, continuous integration, version control, good technical writing, and thoughtful planning to create beautiful software, independently or in teams.</p>
         
-        
-        
-        <h3>Whimsical Work History <small>of doom</small></h3>
-        
-        <h4>Position at Place <small>2016 to 2019</small></h4>
-        
-        <h5>Worthwhile things I did there:</h5>
-        
-        <ul>
-            <li>Shipped 6000% more widgets every single week</li>
-            <li>Clowns to the left of me, jokers to the right</li>
-            <li>Here I am, stuck in the middle with you</li>
-        </ul>
-        
-        <h5>Some clients I worked with:</h5>
-        
-        <ul>
-            <li>Chumley &amp; Chumley</li>
-            <li>Bradford &amp; Cox</li>
-            <li>Brine &amp; Shuffle</li>
-        </ul>
-        
-        </div>
-        
-        <div class="col-md-5">
-        
-        <!-- COLUMN -->
         <h3>Skill Breakdown</h3>
         
         <ul>
@@ -195,12 +139,106 @@
             <li>like, everything but perl</li>
             <li>like, everything but perl</li>
         </ul>
+
         
-        </div>        
+        <h3>Whimsical Work History <small>of doom</small></h3>
         
-        </div>
+        <section class="workHistoryJob">
+            <h4>Position at Place <small>2016 to 2019</small></h4>
+            
+            <h5>Worthwhile things I did there:</h5>
+            
+            <ul>
+                <li>Shipped 6000% more widgets every single week</li>
+                <li>Clowns to the left of me, jokers to the right</li>
+                <li>Here I am, stuck in the middle with you</li>
+            </ul>
+            
+            <h5>Some clients I worked with:</h5>
+            
+            <ul>
+                <li>Chumley &amp; Chumley</li>
+                <li>Bradford &amp; Cox</li>
+                <li>Brine &amp; Shuffle</li>
+            </ul>
+        </section>
+
+        <section class="workHistoryJob">
+            <h4>Position at Place <small>2016 to 2019</small></h4>
+            
+            <h5>Worthwhile things I did there:</h5>
+            
+            <ul>
+                <li>Shipped 6000% more widgets every single week</li>
+                <li>Clowns to the left of me, jokers to the right</li>
+                <li>Here I am, stuck in the middle with you</li>
+            </ul>
+            
+            <h5>Some clients I worked with:</h5>
+            
+            <ul>
+                <li>Chumley &amp; Chumley</li>
+                <li>Bradford &amp; Cox</li>
+                <li>Brine &amp; Shuffle</li>
+            </ul>
+        </section>
         
-        <!--
+        <section class="workHistoryJob">
+            <h4>Position at Place <small>2016 to 2019</small></h4>
+            
+            <h5>Worthwhile things I did there:</h5>
+            
+            <ul>
+                <li>Shipped 6000% more widgets every single week</li>
+                <li>Clowns to the left of me, jokers to the right</li>
+                <li>Here I am, stuck in the middle with you</li>
+            </ul>
+            
+            <h5>Some clients I worked with:</h5>
+            
+            <ul>
+                <li>Chumley &amp; Chumley</li>
+                <li>Bradford &amp; Cox</li>
+                <li>Brine &amp; Shuffle</li>
+            </ul>
+        </section>        
+ 
+        <section class="workHistoryJob">
+            <h4>Position at Place <small>2016 to 2019</small></h4>
+            
+            <h5>Worthwhile things I did there:</h5>
+            
+            <ul>
+                <li>Shipped 6000% more widgets every single week</li>
+                <li>Clowns to the left of me, jokers to the right</li>
+                <li>Here I am, stuck in the middle with you</li>
+            </ul>
+            
+            <h5>Some clients I worked with:</h5>
+            
+            <ul>
+                <li>Chumley &amp; Chumley</li>
+                <li>Bradford &amp; Cox</li>
+                <li>Brine &amp; Shuffle</li>
+            </ul>
+        </section>     
+ 
+        
+
+
+        
+
+    </section>
+
+    
+    
+    
+    
+    
+    <a name="code"></a>
+    <section id="code" class="container alternateColor">
+
+        <h2>Code Samples</h2>        
         
 <p>
 Then rapidly pulling back towards the Pequod, and seeing Ahab leaning over the quarter-deck rail awaiting his report, he moulded his two hands into a trumpet and shouted&mdash;"No, Sir! No!" Upon which Ahab retired, and Stubb returned to the Frenchman.
@@ -224,6 +262,14 @@ He now perceived that the Guernsey-man, who had just got into the chains, and wa
 <p>
 "Oh! keep cool&mdash;cool? yes, that's the word! why don't you pack those whales in ice while you're working at 'em? But joking aside, though; do you know, Rose-bud, that it's all nonsense trying to get any oil out of such whales? As for that dried up one, there, he hasn't a gill in his whole carcase."
 </p>
+
+    </section>
+
+    <a name="personal"></a>
+    <section id="personal" class="container">
+
+        <h2>Some Personal Stuff</h2>      
+
 <h3>The Mighty Subheader</h3>
 <p>
 "I know that well enough; but, d'ye see, the Captain here won't believe it; this is his first voyage; he was a Cologne manufacturer before. But come aboard, and mayhap he'll believe you, if he won't me; and so I'll get out of this dirty scrape."
@@ -254,10 +300,9 @@ English</p>
 <p>
 Stubb was struck by a shower of outcries and anathemas proceeding from the Captain's round-house abaft; and looking in that direction saw a fiery face thrust from behind the door, which was held ajar from within. This was the tormented surgeon, who, after in vain remonstrating against the proceedings of the day, had betaken himself to the Captain's round-house (CABINET he called it) to avoid the pest; but still, could not help yelling out his entreaties and indignations at times.
 English</p>
-    -->
-    
 
-    </div>
+
+    </section>
     
     
     <div id="footer" class="">
@@ -275,5 +320,32 @@ English</p>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        /*
+        $(document).ready(function () {
+            
+            var navOffset;
+            navOffset = $('.navbar').height();
+        
+            $(".navbar ul li a[href^='#']").on('click', function(e) {
+            
+                var navHash;
+                navHash = this.hash;
+            
+                e.preventDefault();
+               
+                // animate scroll
+                $('html, body').animate({
+                   scrollTop: $(navHash).offset().top - navOffset
+                }, 300, function(){
+           
+                   // add hash to url
+                   window.location.hash = navHash;
+                });
+
+            });    
+        });
+        */
+    </script>
   </body>
 </html>
