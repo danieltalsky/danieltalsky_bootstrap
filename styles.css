@@ -21,34 +21,43 @@ p, div {  }
 
 body>section { margin-bottom: 3em; }
 
-section#home { padding: 0;  color: white; background: #050505; }
-section#home #homeIntro {  }
-section#home #homeIntro div { padding-left: 3%; padding-top: 3%; }
-section#home #homeIntro div.danielTalsky {  }
-section#home #homeIntro div.beautifulSoftware { color: #cccccc; }
-section#home figure img { width: 100% }
-section#home figure figcaption { padding: 10px;  margin-right: 20px; font-size: 15px; text-align: right; }
-section#home figure figcaption .photoCredit {  }
-section#home figure figcaption .workCredit { color: #cccccc; }
+.home { width: 100%; margin: 0; padding: 0; }
+.home .wrapper { position: relative; padding: 2em 0; color: #FFF; }
+.home .intro { position: absolute; top: 2em; left: 2em; z-index: 1001;}
+.home h1 {  font-size: 22px; font-weight: normal; line-height: 2.4em; }
+.home h2 { font-size: 18px; font-weight: normal; color: #cccccc; text-transform: none; line-height: 1.8em; }
+.home figure { position: absolute; top: 0px; left: 0px; z-index: 999; }
+.home figure img { width: 100% }
+.home figure figcaption { background-color: #050505; padding: 10px; font-size: 15px; text-align: right; }
+.home figure figcaption .photoCredit {  }
+.home figure figcaption .workCredit { color: #cccccc; }
 
 section#workHistory h4 { padding-top: 1em; }
-section#workHistory h5 { display: inline; font-weight: bold; }
+section#workHistory h5 { display: inline; font-weight: bold; line-height: 1.2em}
 
-section#skills strong {  }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 320px) and (max-width: 768px) {
+/* small (phones, phablets, 320px and up) */
+@media (min-width: 320px) and (max-width: 550px) {
     .container { width: 100%; }
-    .danielTalsky { font-size: .8em; }
-    .beautifulSoftware { font-size: .6em;}
+    .intro { top: .5em; left: 1.5em; }
+    .home h1 { font-size: .8em; }
+    .home h2 { font-size: .6em; line-height: 1.6em;}
+
+}
+
+/* sm & md (tablets, 550px and up) */
+@media (min-width: 551px) and (max-width: 768px) {
+    .container { width: 100%; }
+    .home h1 { font-size: 1em; }
+    .home h2 { font-size: .8em; line-height: 1.6em;}
 
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 769px) and (max-width: 1199px) {
     .container {  width: 100%;  }
-    .danielTalsky { font-size: .8em; }
-    .beautifulSoftware { font-size: 1em;}
+    .home h1 { font-size: 1.2em;}
+    .home h2 { font-size: 1em; line-height: 1.6em; }
 
 }
 
