@@ -40,60 +40,23 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    
-    
-    <style type="text/css">
-        body { padding-top: 70px; font-family: 'Fira Mono', sans-serif; font-size: 22px; line-height: 1.8; }
-        a { color: #ff4245; text-decoration: underline; }
-        
-        .navbar-nav { background-color: white; border: 0; font-size: 14px;}
-        .navbar-nav>.active>a, .navbar-nav>.active>a:focus, .navbar-nav>.active>a:hover { color: #ff4245; text-decoration: underline; } 
-        
-        h1, h2, h3, h4, h5, h6 { font-size: 22px; }
-        
-        h2 { font-weight: bold; text-transform: uppercase; }
-        h3 { font-weight: bold; padding-top: 1em; }
-        h4 { font-weight: bold; line-height: 1.8;}
-        h4 span.position { font-size: 22px; font-weight: normal; background: #ffff00; }
-        h5 {  }
-        
-        p, div {  }
-        
-        body>section { margin-bottom: 3em; }
-        
-        section#home { padding: 0;  color: white; background: #050505;  position: relative; }
-        section#home #homeIntro { position: absolute; }
-        section#home #homeIntro div { padding-left: 3%; padding-top: 3%; width: 42%; }
-        section#home #homeIntro div.danielTalsky {  }
-        section#home #homeIntro div.beautifulSoftware { color: #cccccc; }
-        section#home figure img { width: 100% }
-        section#home figure figcaption { padding: 10px;  font-size: 15px; text-align: right; }
-        section#home figure figcaption .photoCredit {  }
-        section#home figure figcaption .workCredit { color: #cccccc; }
-        
-        section#workHistory h4 { padding-top: 1em; } 
-        section#workHistory h5 { display: inline; font-weight: bold; }
-        
-        section#skills strong {  }
 
-        .bg-fix { background-color: red; }
-
-    </style>
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
   </head>
   <body>
   
-  
+
     <nav class="navbar navbar-fixed-top">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed bg-fix" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Brand</a>
+          <a class="navbar-brand" href="#">#DanielTalsky</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -107,23 +70,9 @@
                 <li><a href="#sayhi">Say Hi</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+      </div><!-- /.container -->
     </nav>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
     <!--
     <div class="container">
         <div class="page-header">
@@ -133,18 +82,20 @@
     -->
     
     <a name="home"></a>
-    <section id="home" class="container">
-    
-        <div id="homeIntro">
-            <div class="danielTalsky">I am Daniel Talsky.</div>
-            
-            <div class="beautifulSoftware">I create beautiful software, independently or in teams, with good planning, testing, continuous integration, version control, and solid technical writing. 
-            I love working in entertainment and have a special focus on writing search tools.</div>
+    <section id="home" class="container home">
+        <div class="row">
+            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-10 col-xs-10">
+                <div id="homeIntro">
+                    <div class="danielTalsky">I am Daniel Talsky.</div>
+
+                    <div class="beautifulSoftware">I create beautiful software, independently or in teams, with good planning, testing, continuous integration, version control, and solid technical writing.
+                    I love working in entertainment and have a special focus on writing search tools.</div>
+                </div>
+            </div>
         </div>
-        
-        <figure>        
+        <figure>
             <img src="img/SATELLITECOLLECTIVEj.jpg">
-        
+
             <figcaption>
                 <div class="photoCredit">Photo: <a target="_blank" href="http://www.lorarobertson.com/lorarobertson.com/Welcome.html">Lora Robertson</a></div>
                 <div class="workCredit">
