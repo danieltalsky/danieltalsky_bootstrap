@@ -1,20 +1,22 @@
-body { padding-top: 70px; font-family: 'Fira Mono', sans-serif; font-size: 22px; line-height: 1.8; }
+body { padding-top: 70px; font-family: 'Fira Mono', sans-serif; font-size: 22px;
+    /*line-height: 1.8; */
+}
 a { color: #ff4245; text-decoration: underline; }
-h1, h2, h3, h4, h5, h6 { font-size: 22px; }
+/*h1, h2, h3, h4, h5, h6 { font-size: 22px; }*/
 
-h2 { font-weight: bold; text-transform: uppercase; }
-h3 { font-weight: bold; padding-top: 1em; }
-h4 { font-weight: bold; line-height: 1.8;}
+/*h2 { font-weight: bold; text-transform: uppercase; }*/
+/*h3 { font-weight: bold; padding-top: 1em; }*/
+/*h4 { font-weight: bold; line-height: 1.8;}*/
 h4 span.position { font-size: 22px; font-weight: normal; background: #ffff00; }
 h5 {  }
 
 p, div {  }
 
-body>section { margin-bottom: 3em; }
+body>section { margin-bottom: 10px; }
 
-.container { width: 100%; }
+/*.container { width: 100%; }*/
 
-.navbar { backgorund-color: #FFF; }
+.navbar { background-color: #FFF; }
 .navbar-nav { background-color: white; border: 0; font-size: 14px;}
 .navbar-brand { background-color: #FFF; }
 .navbar-header { background-color: #FFF; }
@@ -24,7 +26,7 @@ body>section { margin-bottom: 3em; }
 .navbar-toggle .icon-bar { background-color: #333; }
 
 
-.home { position: relative; width: 100%; height: 100%; margin: 0; padding: 0; background: #000 url('./img/SATELLITECOLLECTIVEj.jpg') 0px 0px no-repeat; }
+/*.home { position: relative; width: 100%; height: 100%; margin: 0; padding: 0; background: #000 url('./img/SATELLITECOLLECTIVEj.jpg') 0px 0px no-repeat; }*/
 .home .wrapper { position: relative; padding: 2em 0; color: #FFF; }
 .home .intro { position: absolute; z-index: 1001; top: 2em; left: 2em; }
 .home h1 {  font-size: 22px; font-weight: normal; line-height: 2.4em; }
@@ -62,5 +64,178 @@ section#workHistory h5 { display: inline; font-weight: bold; line-height: 1.2em}
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+}
+
+
+/* Moses Esan -  July 1 2016*/
+.background-container{
+    /*background: url(img/SATELLITECOLLECTIVEj.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 100% auto;*/
+    position: relative;
+    /*height: 450px;*/
+}
+
+.background-container img{
+    width: 100%;
+}
+
+
+.photo-work-credit{
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    text-align: right;
+}
+
+.photo-work-credit p,
+.photo-work-credit span{
+    /*color: #000000;*/
+    /*text-align: center;*/
+    /*font-family: "Gotham-Medium";*/
+    width: 100%;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.photo-work-credit p.work{
+    margin-bottom: 0 !important;
+}
+.photo-work-credit span{
+    line-height: 14px !important;
+}
+
+.intro-container{
+    /*position: absolute;*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 20px;
+    background: #000;
+}
+
+.about-me{
+
+}
+
+.intro-container h1{
+    font-size: 30px;
+    line-height: 30px;
+    color: #fff;
+    /*text-align: center;*/
+}
+
+.intro-container p{
+    font-size: 13px;
+    line-height: 21px;
+    color: #fff;
+    /*text-transform: uppercase;*/
+    margin-top: 0;
+    /*font-weight: 700;*/
+    /*text-align: center;*/
+}
+
+#workHistory{
+    padding-top: 40px;
+}
+
+.info-container{
+    padding-top: 20px;
+}
+
+#workHistory h2,
+.info-container h2{
+    color: #333;
+    margin-top: 0px;
+    padding-bottom: 12px;
+    font-family: 'Fira Mono', sans-serif;
+    line-height: 1.2;
+
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+
+#workHistory h2:after ,
+.info-container h2:after {
+    position: absolute;
+    width: 50px;
+    content: "";
+    display: block;
+    bottom: 4px;
+    left: 0;
+    /* margin-left: -25px; */
+    height: 1px;
+    background: #f73c56;
+}
+
+#workHistory p,
+.info-container p{
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 10px;
+    display: inline-block;
+}
+
+.work-info{
+}
+
+
+.work-info h1{
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.0;
+    margin-top: 0;
+}
+
+.work-info h3{
+    line-height: 17px;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 !important;
+}
+
+.work-info ul{
+    line-height: 17px;
+    font-size: 15px;
+    /*margin: 0 !important;*/
+}
+
+.work-info ul li{
+    padding-bottom: 15px;
+}
+
+/* >=425*/
+@media only screen and (min-width : 375px) {
+    .about-me{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        padding: 15px;
+    }
+}
+
+/*Small Devices, Tablets >=768*/
+@media only screen and (min-width : 768px) {
+    .background-container{
+        height: auto;
+    }
+
+    .photo-work-credit,
+    .intro-container{
+        position: absolute;
+        background: transparent;
+        margin: 0 !important;
+    }
 
 }
